@@ -7,13 +7,13 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'zokk',
+module.exports = { session: process.env.SESSION_ID || 'Ethix-MD&NXNRZpxH',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Marisel",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "254740007567",              
+    OWNER_NAME: process.env.OWNER_NAME || "Sanju",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "919728714060",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
-    BOT : process.env.BOT_NAME || '𝐁𝐔𝐆𝐀𝐓𝐓𝐈',
+    BOT : process.env.BOT_NAME || 'DIL KA CHOR',
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/0418ae5a1e6440e54652c.jpg,https://telegra.ph/file/c425b0fd9ec4ab130c8f9.jpg.https://telegra.ph/file/0d3b89f01e8fccb260b45.jpg.https://telegra.ph/file/abc304e66c2a3e8b2a557.jpg',
     MODE: process.env.PUBLIC_MODE || "no",
                   
